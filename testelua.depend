@@ -1,0 +1,1432 @@
+# depslib dependency file v1.0
+1592653367 source:/media/djoker/code/linux/c/testelua/log.c
+	"log.h"
+
+1592653367 /media/djoker/code/linux/c/testelua/log.h
+	<stdio.h>
+	<stdarg.h>
+	<stdbool.h>
+	<time.h>
+
+1642073079 source:/media/djoker/code/linux/c/testelua/lua/lapi.c
+	"lprefix.h"
+	<limits.h>
+	<stdarg.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lundump.h"
+	"lvm.h"
+
+1642073083 /media/djoker/code/linux/c/testelua/lua/lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1642073083 /media/djoker/code/linux/c/testelua/lua/luaconf.h
+	<limits.h>
+	<stddef.h>
+	<stdint.h>
+	<assert.h>
+
+1642073080 /media/djoker/code/linux/c/testelua/lua/lapi.h
+	"llimits.h"
+	"lstate.h"
+
+1642073081 /media/djoker/code/linux/c/testelua/lua/llimits.h
+	<limits.h>
+	<stddef.h>
+	"lua.h"
+	<assert.h>
+
+1642073082 /media/djoker/code/linux/c/testelua/lua/lstate.h
+	"lua.h"
+	"lobject.h"
+	"ltm.h"
+	"lzio.h"
+	<signal.h>
+
+1642073082 /media/djoker/code/linux/c/testelua/lua/lobject.h
+	<stdarg.h>
+	"llimits.h"
+	"lua.h"
+
+1642073082 /media/djoker/code/linux/c/testelua/lua/ltm.h
+	"lobject.h"
+
+1642073083 /media/djoker/code/linux/c/testelua/lua/lzio.h
+	"lua.h"
+	"lmem.h"
+
+1642073082 /media/djoker/code/linux/c/testelua/lua/lmem.h
+	<stddef.h>
+	"llimits.h"
+	"lua.h"
+
+1642073081 /media/djoker/code/linux/c/testelua/lua/ldebug.h
+	"lstate.h"
+
+1642073081 /media/djoker/code/linux/c/testelua/lua/ldo.h
+	"lobject.h"
+	"lstate.h"
+	"lzio.h"
+
+1642073081 /media/djoker/code/linux/c/testelua/lua/lfunc.h
+	"lobject.h"
+
+1642073081 /media/djoker/code/linux/c/testelua/lua/lgc.h
+	"lobject.h"
+	"lstate.h"
+
+1642073082 /media/djoker/code/linux/c/testelua/lua/lstring.h
+	"lgc.h"
+	"lobject.h"
+	"lstate.h"
+
+1642073082 /media/djoker/code/linux/c/testelua/lua/ltable.h
+	"lobject.h"
+
+1642073083 /media/djoker/code/linux/c/testelua/lua/lundump.h
+	"llimits.h"
+	"lobject.h"
+	"lzio.h"
+
+1642073083 /media/djoker/code/linux/c/testelua/lua/lvm.h
+	"ldo.h"
+	"lobject.h"
+	"ltm.h"
+
+1642073080 source:/media/djoker/code/linux/c/testelua/lua/lauxlib.c
+	"lprefix.h"
+	<errno.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	<sys/wait.h>
+
+1642073080 /media/djoker/code/linux/c/testelua/lua/lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"luaconf.h"
+	"lua.h"
+	<assert.h>
+
+1642073080 source:/media/djoker/code/linux/c/testelua/lua/lbaselib.c
+	"lprefix.h"
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1642073083 /media/djoker/code/linux/c/testelua/lua/lualib.h
+	"lua.h"
+
+1494059526 source:/media/djoker/code/linux/c/testelua/lua/lbitlib.c
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1642073080 source:/media/djoker/code/linux/c/testelua/lua/lcode.c
+	"lprefix.h"
+	<float.h>
+	<limits.h>
+	<math.h>
+	<stdlib.h>
+	"lua.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"llex.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstring.h"
+	"ltable.h"
+	"lvm.h"
+
+1642073080 /media/djoker/code/linux/c/testelua/lua/lcode.h
+	"llex.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+
+1642073081 /media/djoker/code/linux/c/testelua/lua/llex.h
+	<limits.h>
+	"lobject.h"
+	"lzio.h"
+
+1642073082 /media/djoker/code/linux/c/testelua/lua/lopcodes.h
+	"llimits.h"
+
+1642073082 /media/djoker/code/linux/c/testelua/lua/lparser.h
+	"llimits.h"
+	"lobject.h"
+	"lzio.h"
+
+1642073080 source:/media/djoker/code/linux/c/testelua/lua/lcorolib.c
+	"lprefix.h"
+	<stdlib.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1642073080 source:/media/djoker/code/linux/c/testelua/lua/lctype.c
+	"lprefix.h"
+	"lctype.h"
+	<limits.h>
+
+1642073080 /media/djoker/code/linux/c/testelua/lua/lctype.h
+	"lua.h"
+	<limits.h>
+	"llimits.h"
+	<ctype.h>
+
+1642073081 source:/media/djoker/code/linux/c/testelua/lua/ldblib.c
+	"lprefix.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1642073081 source:/media/djoker/code/linux/c/testelua/lua/ldebug.c
+	"lprefix.h"
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lvm.h"
+
+1642073081 source:/media/djoker/code/linux/c/testelua/lua/ldo.c
+	"lprefix.h"
+	<setjmp.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lundump.h"
+	"lvm.h"
+	"lzio.h"
+
+1642073081 source:/media/djoker/code/linux/c/testelua/lua/ldump.c
+	"lprefix.h"
+	<stddef.h>
+	"lua.h"
+	"lobject.h"
+	"lstate.h"
+	"lundump.h"
+
+1642073081 source:/media/djoker/code/linux/c/testelua/lua/lfunc.c
+	"lprefix.h"
+	<stddef.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+
+1642073081 source:/media/djoker/code/linux/c/testelua/lua/lgc.c
+	"lprefix.h"
+	<stdio.h>
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+
+1642073081 source:/media/djoker/code/linux/c/testelua/lua/linit.c
+	"lprefix.h"
+	<stddef.h>
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+
+1642073081 source:/media/djoker/code/linux/c/testelua/lua/liolib.c
+	"lprefix.h"
+	<ctype.h>
+	<errno.h>
+	<locale.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<sys/types.h>
+
+1642073081 source:/media/djoker/code/linux/c/testelua/lua/llex.c
+	"lprefix.h"
+	<locale.h>
+	<string.h>
+	"lua.h"
+	"lctype.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"llex.h"
+	"lobject.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"lzio.h"
+
+1642073081 source:/media/djoker/code/linux/c/testelua/lua/lmathlib.c
+	"lprefix.h"
+	<float.h>
+	<limits.h>
+	<math.h>
+	<stdlib.h>
+	<time.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1642073081 source:/media/djoker/code/linux/c/testelua/lua/lmem.c
+	"lprefix.h"
+	<stddef.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+
+1494059526 source:/media/djoker/code/linux/c/testelua/lua/loadlib.c
+	<windows.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<dlfcn.h>
+
+1642073082 source:/media/djoker/code/linux/c/testelua/lua/lobject.c
+	"lprefix.h"
+	<locale.h>
+	<math.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lctype.h"
+	"ldebug.h"
+	"ldo.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"lvm.h"
+
+1642073082 source:/media/djoker/code/linux/c/testelua/lua/lopcodes.c
+	"lprefix.h"
+	"lopcodes.h"
+
+1642073082 source:/media/djoker/code/linux/c/testelua/lua/loslib.c
+	"lprefix.h"
+	<errno.h>
+	<locale.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<unistd.h>
+
+1494059526 source:/media/djoker/code/linux/c/testelua/lua/lparser.c
+	<string.h>
+	"lua.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"llex.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+
+1494059526 source:/media/djoker/code/linux/c/testelua/lua/lstate.c
+	<stddef.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"llex.h"
+	"lmem.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	<time.h>
+
+1494059526 source:/media/djoker/code/linux/c/testelua/lua/lstring.c
+	<string.h>
+	"lua.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+
+1494059526 source:/media/djoker/code/linux/c/testelua/lua/lstrlib.c
+	<ctype.h>
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1494059526 source:/media/djoker/code/linux/c/testelua/lua/ltable.c
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"lvm.h"
+
+1494059526 source:/media/djoker/code/linux/c/testelua/lua/ltablib.c
+	<limits.h>
+	<stddef.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1494059526 source:/media/djoker/code/linux/c/testelua/lua/ltm.c
+	<string.h>
+	"lua.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+
+1494059526 source:/media/djoker/code/linux/c/testelua/lua/lundump.c
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstring.h"
+	"lundump.h"
+	"lzio.h"
+
+1494059526 source:/media/djoker/code/linux/c/testelua/lua/lvm.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lvm.h"
+
+1494059526 source:/media/djoker/code/linux/c/testelua/lua/lzio.c
+	<string.h>
+	"lua.h"
+	"llimits.h"
+	"lmem.h"
+	"lstate.h"
+	"lzio.h"
+
+1650197345 source:/media/djoker/code/linux/c/testelua/main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"lovesdl.h"
+	"lua/lua.h"
+	"lua/lualib.h"
+	"lua/lauxlib.h"
+	"nogame_lua.h"
+	"boot_lua.h"
+
+1650197389 source:/media/djoker/code/linux/c/testelua/filesystem.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	<dirent.h>
+	<sys/stat.h>
+	<SDL2/SDL.h>
+	"microtar.h"
+	"filesystem.h"
+	"dmt.h"
+
+1650100784 /media/djoker/code/linux/c/testelua/microtar.h
+	<stdio.h>
+	<stdlib.h>
+
+1494059526 /media/djoker/code/linux/c/testelua/filesystem.h
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+
+1649954424 source:/media/djoker/code/linux/c/testelua/luaobj.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"luaobj.h"
+
+1650100784 /media/djoker/code/linux/c/testelua/luaobj.h
+	<stdint.h>
+	"lua/lua.h"
+	"lua/lualib.h"
+	"lua/lauxlib.h"
+
+1494059526 source:/media/djoker/code/linux/c/testelua/microtar.c
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<string.h>
+	"microtar.h"
+
+1494059526 source:/media/djoker/code/linux/c/testelua/stb_image.c
+	"stb_image.h"
+
+1625399468 /media/djoker/code/linux/c/testelua/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1494059526 source:/media/djoker/code/linux/c/testelua/stb_truetype.c
+	"stb_truetype.h"
+
+1618570342 /media/djoker/code/linux/c/testelua/stb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
+1650197058 source:/media/djoker/code/linux/c/testelua/cmixer.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"dmt.h"
+	"cmixer.h"
+	"stb_vorbis.c"
+
+1494059526 /media/djoker/code/linux/c/testelua/cmixer.h
+
+1650010055 source:/media/djoker/code/linux/c/testelua/modules/l_audio.c
+	"cmixer.h"
+	"luaobj.h"
+
+1650198778 source:/media/djoker/code/linux/c/testelua/modules/l_filesystem.c
+	"lovesdl.h"
+	"filesystem.h"
+	"luaobj.h"
+	<sys/stat.h>
+	<dirent.h>
+
+1650212004 /media/djoker/code/linux/c/testelua/lovesdl.h
+	"luaobj.h"
+	<SDL2/SDL.h>
+	"stb_truetype.h"
+	<stdbool.h>
+
+1650199380 source:/media/djoker/code/linux/c/testelua/modules/l_love.c
+	"lovesdl.h"
+	"luaobj.h"
+
+1650200301 source:/media/djoker/code/linux/c/testelua/modules/l_font.c
+	"luaobj.h"
+	"lovesdl.h"
+	"font_ttf.h"
+
+1650048082 source:/media/djoker/code/linux/c/testelua/modules/l_keyboard.c
+	"luaobj.h"
+	"lovesdl.h"
+	<string.h>
+	<ctype.h>
+
+1650200904 source:/media/djoker/code/linux/c/testelua/modules/l_system.c
+	<windows.h>
+	<unistd.h>
+	<mach-o/dyld.h>
+	"luaobj.h"
+	"lovesdl.h"
+
+1650211123 source:/media/djoker/code/linux/c/testelua/modules/l_graphics.c
+	<string.h>
+	<stdlib.h>
+	"dmt.h"
+	"lovesdl.h"
+	"luaobj.h"
+
+1650045226 source:/media/djoker/code/linux/c/testelua/modules/l_mouse.c
+	"luaobj.h"
+	"lovesdl.h"
+
+1650010055 source:/media/djoker/code/linux/c/testelua/modules/l_source.c
+	<string.h>
+	"cmixer.h"
+	"filesystem.h"
+	"luaobj.h"
+
+1650102520 source:/media/djoker/code/linux/c/testelua/modules/l_timer.c
+	<windows.h>
+	<sys/time.h>
+	<time.h>
+	"luaobj.h"
+	"lovesdl.h"
+
+1650014861 source:/media/djoker/code/linux/c/testelua/modules/l_quad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"luaobj.h"
+	"lovesdl.h"
+
+1650130943 source:/media/djoker/code/linux/c/testelua/modules/l_event.c
+	"lovesdl.h"
+	"luaobj.h"
+
+1650199321 source:/media/djoker/code/linux/c/testelua/modules/l_image.c
+	"lovesdl.h"
+	"luaobj.h"
+
+1650198323 source:/media/djoker/code/linux/c/testelua/core.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<math.h>
+	<sys/stat.h>
+	"dmt.h"
+	<dirent.h>
+	<direct.h>
+	<io.h>
+	<unistd.h>
+	"luaobj.h"
+	"lovesdl.h"
+	"stb_image.h"
+	"stb_rect_pack.h"
+	"stb_truetype.h"
+	"stb_image_write.h"
+	<emmintrin.h>
+	<armintr.h>
+
+1618570342 /media/djoker/code/linux/c/testelua/stb_rect_pack.h
+	<stdlib.h>
+	<assert.h>
+
+1618570342 /media/djoker/code/linux/c/testelua/stb_image_write.h
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<assert.h>
+
+1649964463 /media/djoker/code/linux/c/testelua/modules/font_ttf.h
+
+1642073082 /media/djoker/code/linux/c/testelua/lua/lprefix.h
+
+1642073081 /media/djoker/code/linux/c/testelua/lua/ljumptab.h
+
+1642073083 source:/media/djoker/code/linux/c/testelua/lua/lutf8lib.c
+	"lprefix.h"
+	<assert.h>
+	<limits.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1600097640 source:/media/djoker/code/linux/c/testelua/src/lapi.c
+	"lprefix.h"
+	<stdarg.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lundump.h"
+	"lvm.h"
+
+1600097641 /media/djoker/code/linux/c/testelua/src/lprefix.h
+
+1600097641 /media/djoker/code/linux/c/testelua/src/lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1600097641 /media/djoker/code/linux/c/testelua/src/luaconf.h
+	<limits.h>
+	<stddef.h>
+	<stdint.h>
+	<assert.h>
+
+1600097640 /media/djoker/code/linux/c/testelua/src/lapi.h
+	"llimits.h"
+	"lstate.h"
+
+1600097640 /media/djoker/code/linux/c/testelua/src/llimits.h
+	<limits.h>
+	<stddef.h>
+	"lua.h"
+
+1600097641 /media/djoker/code/linux/c/testelua/src/lstate.h
+	"lua.h"
+	"lobject.h"
+	"ltm.h"
+	"lzio.h"
+	<signal.h>
+
+1600097641 /media/djoker/code/linux/c/testelua/src/lobject.h
+	<stdarg.h>
+	"llimits.h"
+	"lua.h"
+
+1600097641 /media/djoker/code/linux/c/testelua/src/ltm.h
+	"lobject.h"
+
+1600097641 /media/djoker/code/linux/c/testelua/src/lzio.h
+	"lua.h"
+	"lmem.h"
+
+1600097641 /media/djoker/code/linux/c/testelua/src/lmem.h
+	<stddef.h>
+	"llimits.h"
+	"lua.h"
+
+1600097640 /media/djoker/code/linux/c/testelua/src/ldebug.h
+	"lstate.h"
+
+1600097640 /media/djoker/code/linux/c/testelua/src/ldo.h
+	"lobject.h"
+	"lstate.h"
+	"lzio.h"
+
+1600097640 /media/djoker/code/linux/c/testelua/src/lfunc.h
+	"lobject.h"
+
+1600097640 /media/djoker/code/linux/c/testelua/src/lgc.h
+	"lobject.h"
+	"lstate.h"
+
+1600097641 /media/djoker/code/linux/c/testelua/src/lstring.h
+	"lgc.h"
+	"lobject.h"
+	"lstate.h"
+
+1600097641 /media/djoker/code/linux/c/testelua/src/ltable.h
+	"lobject.h"
+
+1600097641 /media/djoker/code/linux/c/testelua/src/lundump.h
+	"llimits.h"
+	"lobject.h"
+	"lzio.h"
+
+1600097641 /media/djoker/code/linux/c/testelua/src/lvm.h
+	"ldo.h"
+	"lobject.h"
+	"ltm.h"
+
+1600097640 source:/media/djoker/code/linux/c/testelua/src/lauxlib.c
+	"lprefix.h"
+	<errno.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	<sys/wait.h>
+
+1600097640 /media/djoker/code/linux/c/testelua/src/lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1600097640 source:/media/djoker/code/linux/c/testelua/src/lbaselib.c
+	"lprefix.h"
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1600097641 /media/djoker/code/linux/c/testelua/src/lualib.h
+	"lua.h"
+
+1600097640 source:/media/djoker/code/linux/c/testelua/src/lbitlib.c
+	"lprefix.h"
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1600097640 source:/media/djoker/code/linux/c/testelua/src/lcode.c
+	"lprefix.h"
+	<math.h>
+	<stdlib.h>
+	"lua.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"llex.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstring.h"
+	"ltable.h"
+	"lvm.h"
+
+1600097640 /media/djoker/code/linux/c/testelua/src/lcode.h
+	"llex.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+
+1600097640 /media/djoker/code/linux/c/testelua/src/llex.h
+	"lobject.h"
+	"lzio.h"
+
+1600097641 /media/djoker/code/linux/c/testelua/src/lopcodes.h
+	"llimits.h"
+
+1600097641 /media/djoker/code/linux/c/testelua/src/lparser.h
+	"llimits.h"
+	"lobject.h"
+	"lzio.h"
+
+1600097640 source:/media/djoker/code/linux/c/testelua/src/lcorolib.c
+	"lprefix.h"
+	<stdlib.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1600097640 source:/media/djoker/code/linux/c/testelua/src/lctype.c
+	"lprefix.h"
+	"lctype.h"
+	<limits.h>
+
+1600097640 /media/djoker/code/linux/c/testelua/src/lctype.h
+	"lua.h"
+	<limits.h>
+	"llimits.h"
+	<ctype.h>
+
+1600097640 source:/media/djoker/code/linux/c/testelua/src/ldblib.c
+	"lprefix.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1600097640 source:/media/djoker/code/linux/c/testelua/src/ldebug.c
+	"lprefix.h"
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lvm.h"
+
+1600097640 source:/media/djoker/code/linux/c/testelua/src/ldo.c
+	"lprefix.h"
+	<setjmp.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lundump.h"
+	"lvm.h"
+	"lzio.h"
+
+1600097640 source:/media/djoker/code/linux/c/testelua/src/ldump.c
+	"lprefix.h"
+	<stddef.h>
+	"lua.h"
+	"lobject.h"
+	"lstate.h"
+	"lundump.h"
+
+1600097640 source:/media/djoker/code/linux/c/testelua/src/lfunc.c
+	"lprefix.h"
+	<stddef.h>
+	"lua.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+
+1600097640 source:/media/djoker/code/linux/c/testelua/src/lgc.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+
+1600097640 source:/media/djoker/code/linux/c/testelua/src/linit.c
+	"lprefix.h"
+	<stddef.h>
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+
+1600097640 source:/media/djoker/code/linux/c/testelua/src/liolib.c
+	"lprefix.h"
+	<ctype.h>
+	<errno.h>
+	<locale.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<sys/types.h>
+
+1600097640 source:/media/djoker/code/linux/c/testelua/src/llex.c
+	"lprefix.h"
+	<locale.h>
+	<string.h>
+	"lua.h"
+	"lctype.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"llex.h"
+	"lobject.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"lzio.h"
+
+1600097641 source:/media/djoker/code/linux/c/testelua/src/lmathlib.c
+	"lprefix.h"
+	<stdlib.h>
+	<math.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1600097641 source:/media/djoker/code/linux/c/testelua/src/lmem.c
+	"lprefix.h"
+	<stddef.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+
+1600097641 source:/media/djoker/code/linux/c/testelua/src/loadlib.c
+	"lprefix.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<dlfcn.h>
+	<windows.h>
+
+1600097641 source:/media/djoker/code/linux/c/testelua/src/lobject.c
+	"lprefix.h"
+	<locale.h>
+	<math.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lctype.h"
+	"ldebug.h"
+	"ldo.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"lvm.h"
+
+1600097641 source:/media/djoker/code/linux/c/testelua/src/lopcodes.c
+	"lprefix.h"
+	<stddef.h>
+	"lopcodes.h"
+
+1600097641 source:/media/djoker/code/linux/c/testelua/src/loslib.c
+	"lprefix.h"
+	<errno.h>
+	<locale.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<unistd.h>
+
+1600097641 source:/media/djoker/code/linux/c/testelua/src/lparser.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"llex.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+
+1600097641 source:/media/djoker/code/linux/c/testelua/src/lstate.c
+	"lprefix.h"
+	<stddef.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"llex.h"
+	"lmem.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	<time.h>
+
+1600097641 source:/media/djoker/code/linux/c/testelua/src/lstring.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+
+1600097641 source:/media/djoker/code/linux/c/testelua/src/lstrlib.c
+	"lprefix.h"
+	<ctype.h>
+	<float.h>
+	<limits.h>
+	<locale.h>
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<math.h>
+
+1600097641 source:/media/djoker/code/linux/c/testelua/src/ltable.c
+	"lprefix.h"
+	<math.h>
+	<limits.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"lvm.h"
+
+1600097641 source:/media/djoker/code/linux/c/testelua/src/ltablib.c
+	"lprefix.h"
+	<limits.h>
+	<stddef.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<time.h>
+
+1600097641 source:/media/djoker/code/linux/c/testelua/src/ltm.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lvm.h"
+
+1600097641 source:/media/djoker/code/linux/c/testelua/src/lundump.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstring.h"
+	"lundump.h"
+	"lzio.h"
+
+1600097641 source:/media/djoker/code/linux/c/testelua/src/lutf8lib.c
+	"lprefix.h"
+	<assert.h>
+	<limits.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1600097641 source:/media/djoker/code/linux/c/testelua/src/lvm.c
+	"lprefix.h"
+	<float.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lvm.h"
+
+1600097641 source:/media/djoker/code/linux/c/testelua/src/lzio.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"llimits.h"
+	"lmem.h"
+	"lstate.h"
+	"lzio.h"
+
+1636044148 source:/media/djoker/code/linux/c/testelua/lua/luac.c
+	"lprefix.h"
+	<ctype.h>
+	<errno.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"ldebug.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lopnames.h"
+	"lstate.h"
+	"lundump.h"
+
+1642073082 /media/djoker/code/linux/c/testelua/lua/lopnames.h
+	<stddef.h>
+
+1650197956 source:/media/djoker/code/linux/c/testelua/dmt.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"dmt.h"
+	<execinfo.h>
+
+1650197309 /media/djoker/code/linux/c/testelua/dmt.h
+	<stdio.h>
+
+1494059526 /media/djoker/code/linux/c/testelua/src/cmixer.h
+
+1650201628 /media/djoker/code/linux/c/testelua/src/luaobj.h
+	<stdint.h>
+	"lua/lua.h"
+	"lua/lualib.h"
+	"lua/lauxlib.h"
+
+1618570342 /media/djoker/code/linux/c/testelua/src/stb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
+1494059526 /media/djoker/code/linux/c/testelua/src/filesystem.h
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+
+1650198924 source:/media/djoker/code/linux/c/testelua/src/cmixer.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"dmt.h"
+	"cmixer.h"
+	"stb_vorbis.c"
+
+1650197309 /media/djoker/code/linux/c/testelua/src/dmt.h
+	<stdio.h>
+
+1650211200 source:/media/djoker/code/linux/c/testelua/src/core.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<math.h>
+	<sys/stat.h>
+	"dmt.h"
+	<dirent.h>
+	<direct.h>
+	<io.h>
+	<unistd.h>
+	"luaobj.h"
+	"lovesdl.h"
+	"stb_image.h"
+	"stb_rect_pack.h"
+	"stb_truetype.h"
+	"stb_image_write.h"
+	<emmintrin.h>
+	<armintr.h>
+
+1650210190 /media/djoker/code/linux/c/testelua/src/lovesdl.h
+	"dmt.h"
+	"luaobj.h"
+	<SDL2/SDL.h>
+	"stb_truetype.h"
+	<stdbool.h>
+
+1625399468 /media/djoker/code/linux/c/testelua/src/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1618570342 /media/djoker/code/linux/c/testelua/src/stb_rect_pack.h
+	<stdlib.h>
+	<assert.h>
+
+1618570342 /media/djoker/code/linux/c/testelua/src/stb_image_write.h
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<assert.h>
+
+1650197956 source:/media/djoker/code/linux/c/testelua/src/dmt.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"dmt.h"
+	<execinfo.h>
+
+1650197389 source:/media/djoker/code/linux/c/testelua/src/filesystem.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	<dirent.h>
+	<sys/stat.h>
+	<SDL2/SDL.h>
+	"microtar.h"
+	"filesystem.h"
+	"dmt.h"
+
+1650100784 /media/djoker/code/linux/c/testelua/src/microtar.h
+	<stdio.h>
+	<stdlib.h>
+
+1650201805 source:/media/djoker/code/linux/c/testelua/src/luaobj.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"luaobj.h"
+
+1650199545 source:/media/djoker/code/linux/c/testelua/src/main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"lovesdl.h"
+	"lua/lua.h"
+	"lua/lualib.h"
+	"lua/lauxlib.h"
+	"nogame_lua.h"
+	"boot_lua.h"
+
+1494059526 source:/media/djoker/code/linux/c/testelua/src/microtar.c
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<string.h>
+	"microtar.h"
+

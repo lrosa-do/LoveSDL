@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LoveSDL" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/testelua" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-w" />
+					<Add option="-g" />
+					<Add option="-std=gnu99" />
+					<Add option="-DLUA_USE_LINUX" />
+					<Add option="-DLUA_COMPAT_5_3" />
+					<Add directory="modules" />
+					<Add directory="../testelua" />
+					<Add directory="lua" />
+					<Add directory="include" />
+					<Add directory="src" />
+				</Compiler>
+				<Linker>
+					<Add option="-llua" />
+					<Add option="-lSDL2" />
+					<Add option="-lm" />
+					<Add option="-ldl" />
+					<Add directory="lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/testelua" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DLUA_COMPAT_ALL" />
+					<Add option="-DLUA_USE_LINUX" />
+					<Add directory="modules" />
+					<Add directory="../testelua" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lSDL2" />
+					<Add option="-lm" />
+					<Add option="-ldl" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="lua/Makefile" />
+		<Unit filename="modules/l_audio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_event.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_filesystem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_font.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_graphics.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_keyboard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_love.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_mouse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_quad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_source.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_system.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_timer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/cmixer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/cmixer.h" />
+		<Unit filename="src/core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/dmt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/dmt.h" />
+		<Unit filename="src/filesystem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/filesystem.h" />
+		<Unit filename="src/lovesdl.h" />
+		<Unit filename="src/luaobj.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/luaobj.h" />
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/microtar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/microtar.h" />
+		<Unit filename="src/stb_image.h" />
+		<Unit filename="src/stb_image_resize.h" />
+		<Unit filename="src/stb_image_write.h" />
+		<Unit filename="src/stb_rect_pack.h" />
+		<Unit filename="src/stb_truetype.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
